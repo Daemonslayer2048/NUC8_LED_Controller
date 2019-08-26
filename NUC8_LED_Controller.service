@@ -1,0 +1,12 @@
+[Unit]
+Description=NUC8 Led Controller
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory= *Your location here*
+ExecStart= *Your location here*
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
